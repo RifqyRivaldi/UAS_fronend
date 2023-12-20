@@ -1,0 +1,62 @@
+/* Help.css */
+.help-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .help-content {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .help-title {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .help-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .help-section-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .help-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .help-item {
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .help-contact {
+    font-size: 1.4rem;
+    color: #555;
+  }
+  
+  .help-contact a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .help-contact a:hover {
+    text-decoration: underline;
+  }
+  

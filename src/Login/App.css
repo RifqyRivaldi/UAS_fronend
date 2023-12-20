@@ -1,0 +1,163 @@
+/* Untuk tampilan desktop */
+.App {
+  text-align: center;
+}
+
+/* Gambar Logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animasi Logo (jika tidak ada preferensi untuk reduksi gerakan) */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.login-image
+
+
+/* Header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Link */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes untuk animasi Logo Spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stil untuk tombol sign-in */
+.sign-in-button {
+  background-color: #0074e4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px; /* Tambahkan margin bawah */
+}
+
+/* Hover pada tombol sign-in */
+.sign-in-button:hover {
+  background-color: #0057a3;
+}
+
+/* Container form login */
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Elemen sebelah kanan pada halaman login */
+.login-right {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 80%; /* Lebar maksimum untuk tampilan responsif */
+}
+
+/* Form login */
+.form-login {
+  margin: 0 auto;
+}
+
+/* Input pada form login */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.login-input:focus {
+  border-color: #0074e4;
+}
+
+/* Tombol Google */
+.Google-button {
+  background-color: #808080; /* Warna abu-abu */
+  color: #ffffff; /* Warna teks putih atau sesuai kebutuhan */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px; /* Tambahkan margin bawah */
+}
+
+
+/* Hover pada tombol Google */
+.Google-button:hover {
+  background-color: rgb(233, 31, 0);
+}
+
+/* Teks warna biru dengan garis bawah */
+.blue-text {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Bagian "Masuk" */
+.masuk-text {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.masuk-text h1 {
+  font-size: 2vw; /* Ukuran huruf responsif */
+  color: #e1710f;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tombol Google */
+
+
+/* Teks pada tombol Google */
+.google-text {
+  flex: 1;
+  text-align: center;
+  color: #fdfdfd;
+}
+
+/* Icon Google */
+.google-icon {
+  width: 1vw; /* Ukuran ikon responsif */
+  height: auto;
+  margin-right: 10px;
+}

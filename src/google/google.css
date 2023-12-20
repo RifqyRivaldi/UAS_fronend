@@ -1,0 +1,404 @@
+.icon-arrow-left {
+  position: absolute;
+  height: 4.3%;
+  width: 4.7%;
+  top: 8.5%;
+  right: 91.48%;
+  bottom: 87.2%;
+  left: 3.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.google-logo-icon {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sign-in-with {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.title-contents {
+  align-self: stretch;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.px-border-bottom {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  height: 1px;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-logo-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-lavenderblush);
+}
+.div {
+  position: absolute;
+  top: 34.57%;
+  left: 27.03%;
+}
+.company-logo {
+  position: relative;
+  width: 53px;
+  height: 53px;
+}
+.choose-an-account {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+.company {
+  font-weight: 500;
+  color: var(--color-royalblue);
+}
+.to-continue-to-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+}
+.header,
+.header-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-text {
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-gray-200);
+}
+.header {
+  padding: var(--padding-9xs) var(--padding-21xl) 0;
+  gap: var(--gap-base);
+}
+.a,
+.profile-picture1 {
+  position: absolute;
+  left: 0;
+  width: 28px;
+}
+.profile-picture1 {
+  top: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkmagenta);
+  height: 28px;
+}
+.a {
+  top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-picture {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.account-name,
+.emailgmailcom {
+  align-self: stretch;
+  position: relative;
+}
+.account-name {
+  line-height: 20px;
+  font-weight: 500;
+}
+.emailgmailcom {
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+  color: var(--color-dimgray);
+}
+.account-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+}
+.account-details,
+.px-border-bottom1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.account-details {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-21xl);
+  gap: var(--gap-xs);
+}
+.px-border-bottom1 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-21xl);
+}
+.account-icon1 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.account-icon {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.use-another-account {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.another-account-option1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 14px var(--padding-21xl);
+  gap: var(--gap-xs);
+}
+.another-account-option {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+}
+.accounts-wrapper,
+.another-account-option,
+.main-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.accounts-wrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.main-content {
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+}
+.to-continue-google {
+  margin: 0;
+}
+.and,
+.privacy-policy {
+  font-family: var(--font-roboto);
+}
+.privacy-policy {
+  font-weight: 500;
+  color: var(--color-royalblue);
+}
+.and {
+  color: var(--color-dimgray);
+}
+.terms-of-service {
+  font-weight: 500;
+}
+.privacy-policy-and-terms-of-se {
+  margin: 0;
+  color: var(--color-royalblue);
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px var(--padding-21xl) 3px;
+  font-size: var(--font-size-base);
+}
+.account-choice-box {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 36px;
+  gap: 32px;
+}
+.english-united-states {
+  position: relative;
+  line-height: 16.8px;
+}
+.arrow-icon {
+  position: relative;
+  width: 8px;
+  height: 4px;
+  object-fit: cover;
+}
+.language-option {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.button-text {
+  position: relative;
+  line-height: 16.8px;
+  font-weight: 500;
+}
+
+.right-buttons {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer-button {
+  border-radius: var(--br-11xs);
+  padding: var(--padding-7xs) var(--padding-base);
+}
+.right-buttons {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+
+.back {
+  width: 50px; /* Sesuaikan ukuran yang diinginkan */
+  height: 50px; /* Sesuaikan ukuran yang diinginkan */
+  position: fixed;
+  top: 20px; /* Sesuaikan jarak dari atas */
+  left: 20px; /* Sesuaikan jarak dari kiri */
+  cursor: pointer; /* Tambahkan kursor pointer untuk menunjukkan elemen dapat diklik */
+}
+.glg {
+  width: 5%; /* Lebar 20% dari lebar viewport */
+  height: auto; /* Tinggi menyesuaikan agar tetap proporsional */
+  /* Atur properti lainnya jika diperlukan */
+}
+.user{
+  width: 1.5%; /* Lebar 20% dari lebar viewport */
+  height: auto; 
+}
+.sign-in-with-google {
+  position: absolute;
+  top: 241px;
+  left: 518px;
+  width: 693px;
+  height: 634px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.google {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-roboto);
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-mid: 17px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #757575;
+  --color-gray-200: #202124;
+  --color-gainsboro: #dadce0;
+  --color-dimgray: #5f6368;
+  --color-royalblue: #1a73e8;
+  --color-darkslategray: #3c4043;
+  --color-darkmagenta: #7b1fa2;
+  --color-black: #000;
+  --color-lavenderblush: #fff0f0;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-7xs: 6px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-21xl: 40px;
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+  --br-7xs: 6px;
+}
+@media only screen and (max-width: 600px) {
+  .sign-in-with-google {
+    width: 90vw;
+    left: 5vw;
+  }
+}
+

@@ -1,0 +1,72 @@
+.aboutus-container {
+    margin: 4rem auto; /* Center the container on the page */
+    padding: 2rem; /* Add padding for better spacing */
+    background-color: #f8f9fa; /* Container background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* About Us Content styling */
+  .aboutus-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* About Us Title styling */
+  .aboutus-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #3498db; /* Title color */
+  }
+  
+  /* About Us Description styling */
+  .aboutus-description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  /* About Us Section styling */
+  .aboutus-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* About Us Section Title styling */
+  .aboutus-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #3498db; /* Section title color */
+  }
+  
+  /* About Us Vision styling */
+  .aboutus-vision {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  /* About Us Team List styling */
+  .aboutus-team-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* About Us Team Member styling */
+  .aboutus-team-member {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  .image4{
+  max-width: 15%; /* Membuat gambar tidak melebihi lebar parent container */
+    height: auto; /* Menjaga aspek ratio gambar */
+    display: block; /* Menghilangkan spasi di bawah gambar */
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+    border: 2px solid #ddd; /* Tambahkan border */
+    border-radius: 8px; /* Tambahkan sudut melengkung pada elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     /* Tambahkan efek bayangan */
+  }

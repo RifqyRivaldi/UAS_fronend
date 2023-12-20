@@ -1,0 +1,84 @@
+/* user.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-list {
+  margin-top: 20px;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.table-caption {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.custom-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.button-list {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover, .button-list:hover {
+  background-color: #45a049;
+}
+

@@ -1,0 +1,91 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .textorange {
+  color:#F98121;
+  }
+  .btn normal-case text-white rounded bg-secondary{
+    color:#F98121; 
+  }
+
+  .overlap-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-left {
+    margin-right: 12px; /* Jarak antara gambar dan teks */
+    max-width: 50%; /* Ukuran gambar maksimum */
+  }
+  
+  .text-wrapper {
+    flex: 1; /* Menggunakan sisa ruang untuk teks */
+  }
+  
+  a:hover {
+    background-color: #ddd; /* Warna latar belakang saat tautan dihover */
+  }
+  .underline {
+    border-bottom: 2px solid #000; /* Ganti #000 dengan warna garis yang diinginkan */
+  }
+  h9{
+      font-size: 18px; /* Ukuran font */
+      font-weight: bold; /* Ketebalan font */
+      color: #333; /* Warna teks */
+      text-decoration: none; /* Menghilangkan garis bawah default pada tautan */
+      display: inline-block; /* Membuat tautan menjadi elemen blok */
+      padding: 8px 16px; /* Padding (atas, kanan, bawah, kiri) */
+      background-color: #f0f0f0; /* Warna latar belakang */
+      border-radius: 4px; /* Sudut border */
+      transition: background-color 0.3s ease; /* Efek transisi pada perubahan warna latar belakang */
+  }
+  /* Styling for elements with class name 'img4' */
+
+  .img4 {
+    max-width: 5%; /* Membuat gambar tidak melebihi lebar parent container */
+    height: auto; /* Menjaga aspek ratio gambar */
+    display: block; /* Menghilangkan spasi di bawah gambar */
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+    border: 2px solid #ddd; /* Tambahkan border */
+    border-radius: 8px; /* Tambahkan sudut melengkung pada elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Mengatur posisi absolut */
+    bottom: 9; /* Memposisikan elemen ke bawah */
+    right: 4cm;   /* Tambahkan efek bayangan */
+  }
+

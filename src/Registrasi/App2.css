@@ -1,0 +1,151 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* Login.css */
+  .sign-in-button {
+    background-color: #0074e4; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .key {
+    margin-right: 10px; /* Add margin to the right for spacing */
+    text-align: left; /* Adjust the text alignment as needed */
+    color: #333; /* Change the text color as desired */
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+ 
+  .sign-in-button:hover {
+    background-color: #0057a3; /* Warna latar belakang tombol saat dihover */
+  }
+  .login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-right {
+    background: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan untuk elemen login-right */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .form-login {
+    max-width: 300px; /* Lebar maksimum untuk form login */
+    margin: 0 auto; /* Mengatur margin menjadi auto untuk tengahnya */
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .login-input:focus {
+    border-color: #0074e4; /* Warna border saat input aktif (difokuskan) */
+  }
+  
+  .sign-in-button {
+    background-color: #0074e4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .sign-in-button:hover {
+    background-color: #1400FF;
+  }
+  .blue-text {
+    color: blue; /* Warna teks biru */
+    text-decoration: underline; /* Menambah garis bawah pada teks */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke teks ini */
+    margin-left: 5px; /* Memberi jarak dari teks sebelumnya */
+  }
+  /* You can place this CSS in a separate stylesheet or in your component's stylesheet */
+  .masuk-text {
+    text-align: center;
+    background-color: #ffffff; /* Background color for the section */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .masuk-text h1 {
+    font-size: 50px; /* Font size for the "Masuk" heading */
+    color: #e1710f; /* Text color for the heading */
+    margin: 10;  
+    padding: 1;
+  }
+  .Google-button {
+    background-color: #84888d; /* Change this to the background color you want */
+    color: #ffffff; /* Change this to the text color you want */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none;
+    border-radius: 5px; /* Adjust the border radius as needed */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .google-text {
+    flex: 1; /* Allow the text to expand and fill the available space */
+    text-align: center; /* Center the text horizontally */
+    color:#282c34
+  }
+  
+  .google-icon {
+    width: 24px; /* Adjust the width of the Google icon */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing between the icon and text */
+  }
+  
+  
